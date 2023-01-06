@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, "sans-serif";
+}
+
+.app {
+    max-width: 400px;
+    padding: 2em;
+}
+
+.breed {
+    display: flex;
+    gap: 1em;
+    max-width: 100%;
+}
+
+.breed__icon {
+    width: 1em;
+    height: 1em;
+    font-size: 1.375em;
+    border-radius: .5em;
+    align-self: center;
+}
+
+.breed__text {
+    flex: 1;
+    min-width: 0;
+    flex-direction: column;
+    display: flex;
+    gap: .25em;
+}
+
+.breed__name {
+    font-weight: 700;
+}
+
+.breed__name, .breed__temperament {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
